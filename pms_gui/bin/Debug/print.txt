@@ -1,0 +1,249 @@
+
+********************
+         SPMS
+********************
+
+====AFTER CREATED======
+
+Priority 1 ready queue: 0 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====PROCESS SCHEDULING=====
+
+
+The Process ‘0’ is running in time - slice 1’”
+
+PCB
+Current Process ID:0
+Status:running
+Priority:1
+Runtime:3
+IO time: 1
+IO duration:1
+IO type:color printing
+
+Previous Process: []
+====READY TO RUNNING=====
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====RUNNING TO BLOCK=====
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 0 
+
+====BLOCK TO READY=====
+
+Priority 1 ready queue: 0 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====PROCESS SCHEDULING=====
+
+
+The Process ‘0’ is running in time - slice 2’”
+
+PCB
+Current Process ID:0
+Status:running
+Priority:1
+Runtime:3
+IO time: 1
+IO duration:1
+IO type:color printing
+
+Previous Process ID:0
+Status:running
+Priority:1
+Runtime:3
+IO time: 1
+IO duration:1
+IO type:color printing
+
+
+====READY TO RUNNING=====
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====FINISHED=====
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+inting block queue: 
+
+====BLOCK TO READY=====
+
+Priority 1 ready queue: 2 0 1 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====PROCESS SCHEDULING=====
+
+
+The Process ‘2’ is running in time - slice 3’”
+
+PCB
+Current Process ID:2
+Status:running
+Priority:1
+Runtime:2
+IO time: 1
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:1
+Status:block
+Priority:1
+Runtime:2
+IO time: 1
+IO duration:1
+IO type:Black and white print
+
+
+====READY TO RUNNING=====
+
+Priority 1 ready queue: 0 1 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====RUNNING TO BLOCK=====
+
+Priority 1 ready queue: 0 1 
+Priority 2 ready queue: 
+Black and white block queue: 2 
+Color printing block queue: 
+
+====BLOCK TO READY=====
+
+Priority 1 ready queue: 0 1 2 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====PROCESS SCHEDULING=====
+
+
+The Process ‘0’ is running in time - slice 4’”
+
+PCB
+Current Process ID:0
+Status:running
+Priority:1
+Runtime:3
+IO time: 1
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:2
+Status:block
+Priority:1
+Runtime:3
+IO time: 1
+IO duration:1
+IO type:Black and white print
+
+
+====READY TO RUNNING=====
+
+Priority 1 ready queue: 1 2 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====FINISHED=====
+
+Priority 1 ready queue: 1 2 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====PROCESS SCHEDULING=====
+
+
+The Process ‘1’ is running in time - slice 5’”
+
+PCB
+Current Process ID:1
+Status:running
+Priority:1
+Runtime:2
+IO time: 1
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:0
+Status:finshed
+Priority:1
+Runtime:2
+IO time: 1
+IO duration:1
+IO type:Black and white print
+
+
+====READY TO RUNNING=====
+
+Priority 1 ready queue: 2 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====FINISHED=====
+
+Priority 1 ready queue: 2 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====PROCESS SCHEDULING=====
+
+
+The Process ‘2’ is running in time - slice 6’”
+
+PCB
+Current Process ID:2
+Status:running
+Priority:1
+Runtime:2
+IO time: 1
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:1
+Status:finshed
+Priority:1
+Runtime:2
+IO time: 1
+IO duration:1
+IO type:Black and white print
+
+
+====READY TO RUNNING=====
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+====FINISHED=====
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+

@@ -1,0 +1,832 @@
+
+**********
+SPMS
+**********
+
+Priority 1 ready queue: 0 1 2 3 4 5 6 7 8 9 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘0’ is running in time - slice 1’”
+
+PCB
+Current Process ID:0
+Status:running
+Priority:1
+Runtime:8
+IO time: 3
+IO duration:1
+IO type:Black and white print
+
+Previous Process: []
+Priority 1 ready queue: 1 2 3 4 5 6 7 8 9 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘1’ is running in time - slice 2’”
+
+PCB
+Current Process ID:1
+Status:running
+Priority:1
+Runtime:8
+IO time: 4
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:0
+Status:ready
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:1
+IO type:Black and white print
+
+
+Priority 1 ready queue: 2 3 4 5 6 7 8 9 
+Priority 2 ready queue: 0 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘2’ is running in time - slice 3’”
+
+PCB
+Current Process ID:2
+Status:running
+Priority:1
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:1
+Status:ready
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 3 4 5 6 7 8 9 
+Priority 2 ready queue: 0 1 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘3’ is running in time - slice 4’”
+
+PCB
+Current Process ID:3
+Status:running
+Priority:1
+Runtime:8
+IO time: 4
+IO duration:3
+IO type:Black and white print
+
+Previous Process ID:2
+Status:ready
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:3
+IO type:Black and white print
+
+
+Priority 1 ready queue: 4 5 6 7 8 9 
+Priority 2 ready queue: 0 1 2 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘4’ is running in time - slice 5’”
+
+PCB
+Current Process ID:4
+Status:running
+Priority:1
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:3
+Status:ready
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 5 6 7 8 9 
+Priority 2 ready queue: 0 1 2 3 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘5’ is running in time - slice 6’”
+
+PCB
+Current Process ID:5
+Status:running
+Priority:1
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:4
+Status:ready
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 6 7 8 9 
+Priority 2 ready queue: 0 1 2 3 4 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘6’ is running in time - slice 7’”
+
+PCB
+Current Process ID:6
+Status:running
+Priority:1
+Runtime:8
+IO time: 5
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:5
+Status:ready
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:1
+IO type:Black and white print
+
+
+Priority 1 ready queue: 7 8 9 
+Priority 2 ready queue: 0 1 2 3 4 5 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘7’ is running in time - slice 8’”
+
+PCB
+Current Process ID:7
+Status:running
+Priority:1
+Runtime:8
+IO time: 5
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:6
+Status:ready
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 8 9 
+Priority 2 ready queue: 0 1 2 3 4 5 6 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘8’ is running in time - slice 9’”
+
+PCB
+Current Process ID:8
+Status:running
+Priority:1
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+Previous Process ID:7
+Status:ready
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+
+Priority 1 ready queue: 9 
+Priority 2 ready queue: 0 1 2 3 4 5 6 7 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘9’ is running in time - slice 10’”
+
+PCB
+Current Process ID:9
+Status:running
+Priority:1
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+Previous Process ID:8
+Status:ready
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 0 1 2 3 4 5 6 7 8 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘0’ is running in time - slice 11’”
+
+PCB
+Current Process ID:0
+Status:running
+Priority:2
+Runtime:8
+IO time: 3
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:9
+Status:ready
+Priority:2
+Runtime:8
+IO time: 3
+IO duration:1
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 1 2 3 4 5 6 7 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 1 2 3 4 5 6 7 8 9 0 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘1’ is running in time - slice 12’”
+
+PCB
+Current Process ID:1
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:0
+Status:block
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:1
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 2 3 4 5 6 7 8 9 0 
+Black and white block queue: 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 2 3 4 5 6 7 8 9 0 1 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘2’ is running in time - slice 13’”
+
+PCB
+Current Process ID:2
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:1
+Status:block
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 3 4 5 6 7 8 9 0 1 
+Black and white block queue: 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 3 4 5 6 7 8 9 0 1 2 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘3’ is running in time - slice 14’”
+
+PCB
+Current Process ID:3
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:3
+IO type:Black and white print
+
+Previous Process ID:2
+Status:block
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:3
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 4 5 6 7 8 9 0 1 2 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘4’ is running in time - slice 15’”
+
+PCB
+Current Process ID:4
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:3
+Status:block
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 5 6 7 8 9 0 1 2 
+Black and white block queue: 3 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 5 6 7 8 9 0 1 2 3 
+Black and white block queue: 4 
+Color printing block queue: 
+
+
+The Process ‘5’ is running in time - slice 16’”
+
+PCB
+Current Process ID:5
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:4
+Status:block
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 6 7 8 9 0 1 2 3 
+Black and white block queue: 4 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 6 7 8 9 0 1 2 3 4 
+Black and white block queue: 5 
+Color printing block queue: 
+
+
+The Process ‘6’ is running in time - slice 17’”
+
+PCB
+Current Process ID:6
+Status:running
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:5
+Status:block
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:1
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 7 8 9 0 1 2 3 4 
+Black and white block queue: 5 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 7 8 9 0 1 2 3 4 5 
+Black and white block queue: 6 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 7 8 9 0 1 2 3 4 5 6 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘7’ is running in time - slice 18’”
+
+PCB
+Current Process ID:7
+Status:running
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:6
+Status:block
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 8 9 0 1 2 3 4 5 6 
+Black and white block queue: 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 8 9 0 1 2 3 4 5 6 7 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘8’ is running in time - slice 19’”
+
+PCB
+Current Process ID:8
+Status:running
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+Previous Process ID:7
+Status:block
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 9 0 1 2 3 4 5 6 7 
+Black and white block queue: 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 9 0 1 2 3 4 5 6 7 8 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘9’ is running in time - slice 20’”
+
+PCB
+Current Process ID:9
+Status:running
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+Previous Process ID:8
+Status:block
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 0 1 2 3 4 5 6 7 8 
+Black and white block queue: 
+Color printing block queue: 
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 0 1 2 3 4 5 6 7 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘0’ is running in time - slice 21’”
+
+PCB
+Current Process ID:0
+Status:running
+Priority:2
+Runtime:8
+IO time: 3
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:9
+Status:block
+Priority:2
+Runtime:8
+IO time: 3
+IO duration:1
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 1 2 3 4 5 6 7 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘1’ is running in time - slice 22’”
+
+PCB
+Current Process ID:1
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:0
+Status:finshed
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:1
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 2 3 4 5 6 7 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘2’ is running in time - slice 23’”
+
+PCB
+Current Process ID:2
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:1
+Status:finshed
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 3 4 5 6 7 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘3’ is running in time - slice 24’”
+
+PCB
+Current Process ID:3
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:3
+IO type:Black and white print
+
+Previous Process ID:2
+Status:finshed
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:3
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 4 5 6 7 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘4’ is running in time - slice 25’”
+
+PCB
+Current Process ID:4
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:3
+Status:finshed
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 5 6 7 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘5’ is running in time - slice 26’”
+
+PCB
+Current Process ID:5
+Status:running
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:4
+Status:finshed
+Priority:2
+Runtime:8
+IO time: 4
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 6 7 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘6’ is running in time - slice 27’”
+
+PCB
+Current Process ID:6
+Status:running
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:1
+IO type:Black and white print
+
+Previous Process ID:5
+Status:finshed
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:1
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 7 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘7’ is running in time - slice 28’”
+
+PCB
+Current Process ID:7
+Status:running
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:2
+IO type:Black and white print
+
+Previous Process ID:6
+Status:finshed
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:2
+IO type:Black and white print
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 8 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘8’ is running in time - slice 29’”
+
+PCB
+Current Process ID:8
+Status:running
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+Previous Process ID:7
+Status:finshed
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 9 
+Black and white block queue: 
+Color printing block queue: 
+
+
+The Process ‘9’ is running in time - slice 30’”
+
+PCB
+Current Process ID:9
+Status:running
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+Previous Process ID:8
+Status:finshed
+Priority:2
+Runtime:8
+IO time: 5
+IO duration:3
+IO type:
+
+
+Priority 1 ready queue: 
+Priority 2 ready queue: 
+Black and white block queue: 
+Color printing block queue: 
+

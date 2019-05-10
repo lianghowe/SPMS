@@ -1,0 +1,10 @@
+d:\l\source\repos\pms_gui\pms_gui\bin\Debug\pms_gui.exe.config
+d:\l\source\repos\pms_gui\pms_gui\bin\Debug\pms_gui.exe
+d:\l\source\repos\pms_gui\pms_gui\bin\Debug\pms_gui.pdb
+d:\l\source\repos\pms_gui\pms_gui\obj\Debug\pms_gui.csprojAssemblyReference.cache
+d:\l\source\repos\pms_gui\pms_gui\obj\Debug\pms_gui.Properties.Resources.resources
+d:\l\source\repos\pms_gui\pms_gui\obj\Debug\pms_gui.csproj.GenerateResource.cache
+d:\l\source\repos\pms_gui\pms_gui\obj\Debug\pms_gui.csproj.CoreCompileInputs.cache
+d:\l\source\repos\pms_gui\pms_gui\obj\Debug\pms_gui.exe
+d:\l\source\repos\pms_gui\pms_gui\obj\Debug\pms_gui.pdb
+d:\l\source\repos\pms_gui\pms_gui\obj\Debug\pms_gui.Form1.resources
